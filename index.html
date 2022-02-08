@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="get()" onunload="save()">
+    <div id="container">
+        <div>
+           Name: <input type="text" id="names"> <br><br>
+           Email: <input type="email" id="email"> <br><br>
+           Age: <input type="number" id="age"> <br><br>
+           Sex: <input type="text" id="sex"> <br><br>
+
+            <!-- <div> -->
+           <!-- <button onclick="number(event)" value="1">1</button>
+           <button onclick="number(event)" value="2">2</button>
+           <button onclick="number(event)" value="3">3</button>
+           <button onclick="number(event)" value="4">4</button>
+           <button onclick="number(event)" value="5">5</button>
+           <button onclick="number(event)" value="+">+</button>
+           <button onclick="number(event)" value="-">-</button>
+           <button onclick="number(event)" value="*">x</button>
+           <button onclick="number(event)" value="/">/</button>
+           <button onclick="coss(event)" value="sin">sin</button>
+           <button onclick="coss(event)" value="cos">cos</button>
+           <button onclick="coss(event)" value="tan">tan</button>
+           <button onclick="number(event)" value="(">(</button>
+           <button onclick="number(event)" value=")">)</button> -->
+
+            <!-- </div> -->
+           <button onclick="count()">Submit</button>
+        </div>
+
+        <div>
+             <p id="displayName"></p>
+            Email: <input type="email" id="loginemail"> <br><br>
+            <button onclick="login()">Submit</button>
+         </div>
+    </div>
+</body>
+<script src="./javascript.js"></script>
+</html>

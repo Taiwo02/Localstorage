@@ -1,0 +1,16 @@
+#container{
+    width: 50%;
+    height:300px;
+    border: solid grey 1px;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+#container div {
+    margin-left: 20%;
+    margin-top: 10%;
+    /* align-items: center; */
+}
+#container div button {
+    margin-left:20%
+}
